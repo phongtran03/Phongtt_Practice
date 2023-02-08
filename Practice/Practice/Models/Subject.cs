@@ -17,6 +17,6 @@ namespace Practice.Models
         public DateTime? StartDate { get; set; }
         [Required]
         public DateTime? EndDate { get; set;}
-        public virtual List<Exam>? Exams { get; set; }
+        public virtual List<Exam>? Exam { get; set; }
     }
 }
