@@ -62,11 +62,11 @@ namespace Practice.Migrations
                 columns: table => new
                 {
                     ExamsExamId = table.Column<long>(type: "INTEGER", nullable: false),
-                    StudentsStudentId = table.Column<long>(type: "INTEGER", nullable: false)
+                    StudentId = table.Column<long>(type: "INTEGER", nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_ExamStudent", x => new { x.ExamsExamId, x.StudentsStudentId });
+                    table.PrimaryKey("PK_ExamStudent", x => new { x.ExamsExamId, x.StudentId });
                     table.ForeignKey(
                         name: "FK_ExamStudent_Exams_ExamsExamId",
                         column: x => x.ExamsExamId,
@@ -74,8 +74,8 @@ namespace Practice.Migrations
                         principalColumn: "ExamId",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
-                        name: "FK_ExamStudent_Students_StudentsStudentId",
-                        column: x => x.StudentsStudentId,
+                        name: "FK_ExamStudent_Students_StudentId",
+                        column: x => x.StudentId,
                         principalTable: "Students",
                         principalColumn: "StudentId",
                         onDelete: ReferentialAction.Cascade);
@@ -86,11 +86,11 @@ namespace Practice.Migrations
                 columns: table => new
                 {
                     ExamsExamId = table.Column<long>(type: "INTEGER", nullable: false),
-                    SubjectsSubjectId = table.Column<int>(type: "INTEGER", nullable: false)
+                    SubjectId = table.Column<int>(type: "INTEGER", nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_ExamSubject", x => new { x.ExamsExamId, x.SubjectsSubjectId });
+                    table.PrimaryKey("PK_ExamSubject", x => new { x.ExamsExamId, x.SubjectId });
                     table.ForeignKey(
                         name: "FK_ExamSubject_Exams_ExamsExamId",
                         column: x => x.ExamsExamId,
@@ -98,8 +98,8 @@ namespace Practice.Migrations
                         principalColumn: "ExamId",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
-                        name: "FK_ExamSubject_Subjects_SubjectsSubjectId",
-                        column: x => x.SubjectsSubjectId,
+                        name: "FK_ExamSubject_Subjects_SubjectId",
+                        column: x => x.SubjectId,
                         principalTable: "Subjects",
                         principalColumn: "SubjectId",
                         onDelete: ReferentialAction.Cascade);
@@ -151,14 +151,14 @@ namespace Practice.Migrations
                 values: new object[] { 3, "this is a language", new DateTime(2023, 1, 28, 0, 0, 0, 0, DateTimeKind.Unspecified), new DateTime(2022, 3, 28, 0, 0, 0, 0, DateTimeKind.Unspecified), "K205", "JAVA  program" });
 
             migrationBuilder.CreateIndex(
-                name: "IX_ExamStudent_StudentsStudentId",
+                name: "IX_ExamStudent_StudentId",
                 table: "ExamStudent",
-                column: "StudentsStudentId");
+                column: "StudentId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_ExamSubject_SubjectsSubjectId",
+                name: "IX_ExamSubject_SubjectId",
                 table: "ExamSubject",
-                column: "SubjectsSubjectId");
+                column: "SubjectId");
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)

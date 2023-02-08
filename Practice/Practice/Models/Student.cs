@@ -9,8 +9,10 @@ namespace Practice.Models
         [StringLength(150,MinimumLength =8)]
         public string? Name { get; set; }
         [Required]
+        [DisplayFormat(DataFormatString = "{0:yyyy-MM-dd}", ApplyFormatInEditMode = true)]
         public DateTime? DateOfBirth { get; set; }
         [Required]
+        [EmailAddress]
         public string? Email { get; set; }
         [Required]
         public string? Address { get; set; }

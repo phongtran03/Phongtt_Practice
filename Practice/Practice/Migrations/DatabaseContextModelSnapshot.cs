@@ -22,12 +22,12 @@ namespace Practice.Migrations
                     b.Property<long>("ExamsExamId")
                         .HasColumnType("INTEGER");
 
-                    b.Property<long>("StudentsStudentId")
+                    b.Property<long>("StudentId")
                         .HasColumnType("INTEGER");
 
-                    b.HasKey("ExamsExamId", "StudentsStudentId");
+                    b.HasKey("ExamsExamId", "StudentId");
 
-                    b.HasIndex("StudentsStudentId");
+                    b.HasIndex("StudentId");
 
                     b.ToTable("ExamStudent");
                 });
@@ -37,12 +37,12 @@ namespace Practice.Migrations
                     b.Property<long>("ExamsExamId")
                         .HasColumnType("INTEGER");
 
-                    b.Property<int>("SubjectsSubjectId")
+                    b.Property<int>("SubjectId")
                         .HasColumnType("INTEGER");
 
-                    b.HasKey("ExamsExamId", "SubjectsSubjectId");
+                    b.HasKey("ExamsExamId", "SubjectId");
 
-                    b.HasIndex("SubjectsSubjectId");
+                    b.HasIndex("SubjectId");
 
                     b.ToTable("ExamSubject");
                 });
@@ -216,7 +216,7 @@ namespace Practice.Migrations
 
                     b.HasOne("Practice.Models.Student", null)
                         .WithMany()
-                        .HasForeignKey("StudentsStudentId")
+                        .HasForeignKey("StudentId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
                 });
@@ -231,7 +231,7 @@ namespace Practice.Migrations
 
                     b.HasOne("Practice.Models.Subject", null)
                         .WithMany()
-                        .HasForeignKey("SubjectsSubjectId")
+                        .HasForeignKey("SubjectId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
                 });
