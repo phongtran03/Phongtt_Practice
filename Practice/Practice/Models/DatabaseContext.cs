@@ -11,7 +11,7 @@ namespace Practice.Models
             modelBuilder.Entity<Student>().HasData(new Student
             {
                 StudentId = 1,
-                Name = "Mai Huy B",
+                Name = "nguyen van B",
                 DateOfBirth = new DateTime(2001, 04, 20),
                 Email = "hoatdfk2001@gmail.com",
                 Address = "Nam Dinh"
@@ -21,7 +21,7 @@ namespace Practice.Models
             modelBuilder.Entity<Student>().HasData(new Student
             {
                 StudentId = 2,
-                Name = "Mai Huy A",
+                Name = "nguyen van A",
                 DateOfBirth = new DateTime(2001, 04, 21),
                 Email = "hoatdfk2001@gmail.com",
                 Address = "Nam Dinh"
@@ -31,7 +31,7 @@ namespace Practice.Models
             modelBuilder.Entity<Student>().HasData(new Student
             {
                 StudentId = 3,
-                Name = "Mai Huy C",
+                Name = "nguyen van C",
                 DateOfBirth = new DateTime(2001, 04, 22),
                 Email = "hoatdfk2001@gmail.com",
                 Address = "Nam Dinh"
