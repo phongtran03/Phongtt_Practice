@@ -10,7 +10,7 @@ namespace Practice.Models
         public int Score { get; set; }
         public long StudentId { get; set; }
         public int  SubjectId { get; set; }
-        public virtual List<Student>? Students { get; set;}
-        public virtual List<Subject>? Subjects { get; set; }
+        public virtual List<Student>? Student { get; set;}
+        public virtual List<Subject>? Subject { get; set; }
     }
 }
