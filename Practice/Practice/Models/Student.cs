@@ -14,6 +14,6 @@ namespace Practice.Models
         public string? Email { get; set; }
         [Required]
         public string? Address { get; set; }
-        public virtual List<Exam>? Exams { get; set; }
+        public virtual List<Exam>? Exam { get; set; }
     }
 }
