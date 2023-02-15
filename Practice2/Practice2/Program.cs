@@ -21,7 +21,7 @@ builder.Services.AddAuthorization(options=> options.AddPolicy("Admin", policy =>
 }));
 builder.Services.AddAuthorization(options => options.AddPolicy("Admin,Adder", policy =>
 {
-    policy.RequireUserName("admin@mvc.web");
+    policy.RequireUserName("admin@mvc.web").RequireUserName("add@mvc.web");
 }));
 var app = builder.Build();
 
