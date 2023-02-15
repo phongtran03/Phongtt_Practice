@@ -45,7 +45,8 @@ namespace Practice2.Controllers
         }
 
         // GET: Students/Create
-        [Authorize(Roles= "Admin,Adder")]
+        [Authorize(Policy = "Admin,Adder")]
+       
         public IActionResult Create()
         {
             return View();
@@ -56,7 +57,7 @@ namespace Practice2.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        [Authorize(Roles = "Admin,Adder")]
+        [Authorize(Policy  = "Admin,Adder")]
         public async Task<IActionResult> Create([Bind("StudentId,Name,DateOfBirth,Email,Address")] Student student)
         {
             if (ModelState.IsValid)
@@ -69,7 +70,7 @@ namespace Practice2.Controllers
         }
 
         // GET: Students/Edit/5
-        [Authorize(Roles ="Admin")]
+        [Authorize(Policy ="Admin")]
         public async Task<IActionResult> Edit(long? id)
         {
             if (id == null || _context.Students == null)
@@ -90,7 +91,7 @@ namespace Practice2.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        [Authorize(Roles = "Admin")]
+        [Authorize(Policy = "Admin")]
         public async Task<IActionResult> Edit(long id, [Bind("StudentId,Name,DateOfBirth,Email,Address")] Student student)
         {
             if (id != student.StudentId)
@@ -122,7 +123,7 @@ namespace Practice2.Controllers
         }
 
         // GET: Students/Delete/5
-        [Authorize(Roles = "Admin")]
+        [Authorize(Policy = "Admin")]
         public async Task<IActionResult> Delete(long? id)
         {
             if (id == null || _context.Students == null)
@@ -143,7 +144,7 @@ namespace Practice2.Controllers
         // POST: Students/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
-        [Authorize(Roles = "Admin")]
+        [Authorize(Policy = "Admin")]
         public async Task<IActionResult> DeleteConfirmed(long id)
         {
             if (_context.Students == null)

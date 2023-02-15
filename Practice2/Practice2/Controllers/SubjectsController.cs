@@ -46,7 +46,7 @@ namespace Practice2.Controllers
         }
 
         // GET: Subjects/Create
-        [Authorize(Roles = "Admin,Adder")]
+       
         public IActionResult Create()
         {
             return View();
@@ -58,7 +58,7 @@ namespace Practice2.Controllers
         [HttpPost]
         [ValidateAntiForgeryToken]
 
-        [Authorize(Roles = "Admin,Adder")]
+        [Authorize(Policy = "Admin,Adder")]
         public async Task<IActionResult> Create([Bind("SubjectId,SubjectName,SubjectCode,Description,StartDate,EndDate")] Subject subject)
         {
             if (ModelState.IsValid)
@@ -71,7 +71,7 @@ namespace Practice2.Controllers
         }
 
         // GET: Subjects/Edit/5
-        [Authorize(Roles = "Admin")]
+        [Authorize(Policy ="Admin")]
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null || _context.Subjects == null)
@@ -92,7 +92,7 @@ namespace Practice2.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        [Authorize(Roles = "Admin")]
+        [Authorize(Policy = "Admin")]
         public async Task<IActionResult> Edit(int id, [Bind("SubjectId,SubjectName,SubjectCode,Description,StartDate,EndDate")] Subject subject)
         {
             if (id != subject.SubjectId)
@@ -124,7 +124,7 @@ namespace Practice2.Controllers
         }
 
         // GET: Subjects/Delete/5
-        [Authorize(Roles = "Admin")]
+        [Authorize(Policy = "Admin")]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null || _context.Subjects == null)
@@ -145,7 +145,7 @@ namespace Practice2.Controllers
         // POST: Subjects/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
-        [Authorize(Roles = "Admin")]
+        [Authorize(Policy = "Admin")]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
             if (_context.Subjects == null)

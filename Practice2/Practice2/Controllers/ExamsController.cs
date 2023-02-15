@@ -46,7 +46,7 @@ namespace Practice2.Controllers
         }
 
         // GET: Exams/Create
-        [Authorize(Roles = "Admin,Adder,admin")]
+        [Authorize(Policy = "Admin,Adder")]
         public IActionResult Create()
         {
             return View();
@@ -57,7 +57,7 @@ namespace Practice2.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        [Authorize(Roles = "Admin,Adder")]
+        [Authorize(Policy = "Admin,Adder")]
         public async Task<IActionResult> Create([Bind("ExamId,Score,StudentId,SubjectId")] Exam exam)
         {
             if (ModelState.IsValid)
@@ -70,7 +70,7 @@ namespace Practice2.Controllers
         }
 
         // GET: Exams/Edit/5
-        [Authorize(Roles = "Admin")]
+        [Authorize(Policy = "Admin")]
         public async Task<IActionResult> Edit(long? id)
         {
             if (id == null || _context.Exams == null)
@@ -91,7 +91,7 @@ namespace Practice2.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        [Authorize(Roles = "Admin")]
+        [Authorize(Policy = "Admin")]
         public async Task<IActionResult> Edit(long id, [Bind("ExamId,Score,StudentId,SubjectId")] Exam exam)
         {
             if (id != exam.ExamId)
@@ -123,7 +123,7 @@ namespace Practice2.Controllers
         }
 
         // GET: Exams/Delete/5
-        [Authorize(Roles = "Admin")]
+        [Authorize(Policy = "Admin")]
         public async Task<IActionResult> Delete(long? id)
         {
             if (id == null || _context.Exams == null)
@@ -144,7 +144,7 @@ namespace Practice2.Controllers
         // POST: Exams/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
-        [Authorize(Roles = "Admin")]
+        [Authorize(Policy = "Admin")]
         public async Task<IActionResult> DeleteConfirmed(long id)
         {
             if (_context.Exams == null)
