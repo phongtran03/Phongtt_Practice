@@ -9,97 +9,37 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Practice
 build_property.RootNamespace = Practice
-build_property.ProjectDir = F:\FPT_APTECH\Ki_3\C#\Practice\Practice\Practice\
+build_property.ProjectDir = F:\FPT_APTECH\Ki_3\C#\C-MVC-core\Practice\Practice\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = F:\FPT_APTECH\Ki_3\C#\Practice\Practice\Practice
+build_property.MSBuildProjectDirectory = F:\FPT_APTECH\Ki_3\C#\C-MVC-core\Practice\Practice
 build_property._RazorSourceGeneratorDebug = 
 
-[F:/FPT_APTECH/Ki_3/C\#/Practice/Practice/Practice/Views/Exams/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhhbXNcQ3JlYXRlLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[F:/FPT_APTECH/Ki_3/C\#/Practice/Practice/Practice/Views/Exams/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhhbXNcRGVsZXRlLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[F:/FPT_APTECH/Ki_3/C\#/Practice/Practice/Practice/Views/Exams/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhhbXNcRGV0YWlscy5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[F:/FPT_APTECH/Ki_3/C\#/Practice/Practice/Practice/Views/Exams/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhhbXNcRWRpdC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[F:/FPT_APTECH/Ki_3/C\#/Practice/Practice/Practice/Views/Exams/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhhbXNcSW5kZXguY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[F:/FPT_APTECH/Ki_3/C\#/Practice/Practice/Practice/Views/Home/Index.cshtml]
+[F:/FPT_APTECH/Ki_3/C\#/C-MVC-core/Practice/Practice/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/FPT_APTECH/Ki_3/C\#/Practice/Practice/Practice/Views/Home/Privacy.cshtml]
+[F:/FPT_APTECH/Ki_3/C\#/C-MVC-core/Practice/Practice/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/FPT_APTECH/Ki_3/C\#/Practice/Practice/Practice/Views/Shared/Error.cshtml]
+[F:/FPT_APTECH/Ki_3/C\#/C-MVC-core/Practice/Practice/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/FPT_APTECH/Ki_3/C\#/Practice/Practice/Practice/Views/Shared/_ValidationScriptsPartial.cshtml]
+[F:/FPT_APTECH/Ki_3/C\#/C-MVC-core/Practice/Practice/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/FPT_APTECH/Ki_3/C\#/Practice/Practice/Practice/Views/Students/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudHNcQ3JlYXRlLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[F:/FPT_APTECH/Ki_3/C\#/Practice/Practice/Practice/Views/Students/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudHNcRGVsZXRlLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[F:/FPT_APTECH/Ki_3/C\#/Practice/Practice/Practice/Views/Students/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudHNcRGV0YWlscy5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[F:/FPT_APTECH/Ki_3/C\#/Practice/Practice/Practice/Views/Students/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudHNcRWRpdC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[F:/FPT_APTECH/Ki_3/C\#/Practice/Practice/Practice/Views/Students/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudHNcSW5kZXguY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[F:/FPT_APTECH/Ki_3/C\#/Practice/Practice/Practice/Views/Subjects/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3ViamVjdHNcQ3JlYXRlLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[F:/FPT_APTECH/Ki_3/C\#/Practice/Practice/Practice/Views/Subjects/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3ViamVjdHNcRGVsZXRlLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[F:/FPT_APTECH/Ki_3/C\#/Practice/Practice/Practice/Views/Subjects/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3ViamVjdHNcRGV0YWlscy5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[F:/FPT_APTECH/Ki_3/C\#/Practice/Practice/Practice/Views/Subjects/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3ViamVjdHNcRWRpdC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[F:/FPT_APTECH/Ki_3/C\#/Practice/Practice/Practice/Views/Subjects/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3ViamVjdHNcSW5kZXguY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[F:/FPT_APTECH/Ki_3/C\#/Practice/Practice/Practice/Views/_ViewImports.cshtml]
+[F:/FPT_APTECH/Ki_3/C\#/C-MVC-core/Practice/Practice/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/FPT_APTECH/Ki_3/C\#/Practice/Practice/Practice/Views/_ViewStart.cshtml]
+[F:/FPT_APTECH/Ki_3/C\#/C-MVC-core/Practice/Practice/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/FPT_APTECH/Ki_3/C\#/Practice/Practice/Practice/Views/Shared/_Layout.cshtml]
+[F:/FPT_APTECH/Ki_3/C\#/C-MVC-core/Practice/Practice/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-a4lxi8xlsj

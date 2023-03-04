@@ -10391,11 +10391,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\FPT_APTECH\\Ki_3\\C#\\Practice\\Practice\\Practice\\Practice.csproj",
+      "projectUniqueName": "F:\\FPT_APTECH\\Ki_3\\C#\\C-MVC-core\\Practice\\Practice\\Practice.csproj",
       "projectName": "Practice",
-      "projectPath": "F:\\FPT_APTECH\\Ki_3\\C#\\Practice\\Practice\\Practice\\Practice.csproj",
+      "projectPath": "F:\\FPT_APTECH\\Ki_3\\C#\\C-MVC-core\\Practice\\Practice\\Practice.csproj",
       "packagesPath": "C:\\Users\\hoatd\\.nuget\\packages\\",
-      "outputPath": "F:\\FPT_APTECH\\Ki_3\\C#\\Practice\\Practice\\Practice\\obj\\",
+      "outputPath": "F:\\FPT_APTECH\\Ki_3\\C#\\C-MVC-core\\Practice\\Practice\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\hoatd\\AppData\\Roaming\\NuGet\\NuGet.Config",

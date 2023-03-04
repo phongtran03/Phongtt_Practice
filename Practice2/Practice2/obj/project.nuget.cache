@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jIDboWHlVzzTl9OEgq6/Mq5geDpL9XTLCKxXXhI8AAp+NAcMKHQikJdX8rxoAG2dyL8+DV1oJXqxJgM+ykT2Jg==",
+  "dgSpecHash": "Pvhild6d/jZNlIoKpf+5aklUKULTgfVJhM8/sbm6bSamC5GuCj457o86cHIi1QiDvIAlqp3+uLosucXAEdBRSA==",
   "success": true,
-  "projectFilePath": "F:\\FPT_APTECH\\Ki_3\\C#\\Practice\\Practice2\\Practice2\\Practice2.csproj",
+  "projectFilePath": "F:\\FPT_APTECH\\Ki_3\\C#\\C-MVC-core\\Practice2\\Practice2\\Practice2.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hoatd\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\hoatd\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
