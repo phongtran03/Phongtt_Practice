@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "D5dYlqX+tyNuCsitkEw0UvdoyDoF/kexElSkLuPEgEaEZraaZwCeCR67bXU4BqfdOdssX9BtCC7qCRijJ/ifFw==",
+  "dgSpecHash": "Q7UKVwzisTVJqG1p7wh7JELjCerauAwAKZzmjjk7WyCa6JvF4HXC4uy4h7ub6oaxtUOkL8vcYnAC4pc8mGtAkQ==",
   "success": true,
-  "projectFilePath": "F:\\FPT_APTECH\\Ki_3\\Web API\\Practical\\Models\\Models.csproj",
+  "projectFilePath": "F:\\FPT_APTECH\\Ki_3\\C#\\C-MVC-core\\PracticalDBFirst\\Models\\Models.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hoatd\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\hoatd\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
