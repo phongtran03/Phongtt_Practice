@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\MaiHuyHoat_Practice.props" />
+</Project>
